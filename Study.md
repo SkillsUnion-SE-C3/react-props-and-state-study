@@ -1,38 +1,40 @@
 [<img src="assets/images/su-logo.png" alt="Skills Union Logo" height="80px" />](https://www.skillsunion.com/)
-# Lorem ipsum: Study
+
+# React Props & State: Study
 
 Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along with the provided resources to research and answer the [questions below](#questions).
 
 ## Required Reading
 
-- [Lorem ipsum dolor sit amet](#)
-
-## Optional Reading
-
-- [Lorem ipsum dolor sit amet](#)
-
+- [What is Props and how to use it](https://reactjs.org/docs/components-and-props.html)
+- [What is State and how to use it](https://reactjs.org/docs/state-and-lifecycle.html)
+- [Props vs State](https://reactjs.org/docs/faq-state.html)
+- [What is immutability and it's benefits](https://youtu.be/4LzcQyZ9JOU)
 
 ## Questions
 
-1. Lorem ipsum dolor sit amet
+1. When do you use `props`?
 
-    ```
-    Please write your answer here.
-    ```
+   ```
+   Please write your answer here.
+   ```
 
-1. Write an example Lorem ipsum dolor sit amet:
+2. When do you use `state`?
 
-    ```js
-    /* Your Answer */
-    ```
+   ```
+   Please write your answer here.
+   ```
 
-1. Using a "Fist to Five", what is your comfort and clarity level?
+3. Which of the following statement is true
 
-    ```
-    Comfort: 
+   ```js
+   let name = "John";
+   name = "Mary"; // What happened here?
+   ```
 
-    Clarity: 
-    ```
+   A) The variable `name` with value "John" is being changed to "Mary".
+
+   B) The value of variable `name`, "John", did not change. It simply changes its reference from "John" to "Mary".
 
 ### Response Guidelines
 
