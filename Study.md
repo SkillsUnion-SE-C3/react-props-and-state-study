@@ -10,6 +10,10 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 - [What is State and how to use it](https://reactjs.org/docs/state-and-lifecycle.html)
 - [Props vs State](https://reactjs.org/docs/faq-state.html)
 - [What is immutability and it's benefits](https://youtu.be/4LzcQyZ9JOU)
+- [More on immutability](https://developer.mozilla.org/en-US/docs/Glossary/Mutable)
+- [What is Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+- [Event Handling in React](https://reactjs.org/docs/handling-events.html)
+- [Understand button's default behavior](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
 
 ## Questions
 
@@ -34,7 +38,25 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
    A) The variable `name` with value "John" is being changed to "Mary".
 
-   B) The value of variable `name`, "John", did not change. It simply changes its reference from "John" to "Mary".
+   B) The value of variable `name`, "John", did not change. The variable simply point its reference to a new value - "Mary".
+
+4. What are the primitive data types in JavaScript?
+
+   ```
+   Please write your answer here.
+   ```
+
+5. What is the default behaviour of a button "Submit"?
+
+   ```
+   Please write your answer here.
+   ```
+
+6. How do you prevent default button behaviour in React?
+
+   ```
+   Please write your answer here.
+   ```
 
 ### Response Guidelines
 
