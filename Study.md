@@ -58,6 +58,12 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
    Please write your answer here.
    ```
 
+7. Why do you need to prevent default behaviour of a button?
+
+   ```
+   Please write your answer here.
+   ```
+
 ### Response Guidelines
 
 Please follow these guidelines as you answers these questions:
