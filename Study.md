@@ -8,12 +8,13 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 
 - [What is Props and how to use it](https://reactjs.org/docs/components-and-props.html)
 - [What is State and how to use it](https://reactjs.org/docs/state-and-lifecycle.html)
-- [Props vs State](https://reactjs.org/docs/faq-state.html)
+- [Props vs State](https://www.youtube.com/watch?v=m1eZzN1ppPY&t=22s)
+- [Primitive and non-primitive recap](https://www.youtube.com/watch?v=pslr6SWXFjQ)
 - [What is immutability and it's benefits](https://youtu.be/4LzcQyZ9JOU)
-- [More on immutability](https://developer.mozilla.org/en-US/docs/Glossary/Mutable)
-- [What is Primitive](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
-- [Event Handling in React](https://reactjs.org/docs/handling-events.html)
-- [Understand button's default behavior](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
+- [Event Handling instructional video](youtube.com/watch?v=Zbjmfqw9RXM)
+- [Event Handling in React documentation](https://reactjs.org/docs/handling-events.html)
+- [Submit default behaviour and how to overcome it](https://www.youtube.com/watch?v=I_fVO_NzT2g)
+
 
 ## Questions
 
@@ -22,43 +23,50 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
    ```
    Please write your answer here.
    ```
-
-2. When do you use `state`?
-
-   ```
-   Please write your answer here.
-   ```
-
-3. Which of the following statement is true
-
-   ```js
-   let name = "John";
-   name = "Mary"; // What happened here?
-   ```
-
-   A) The variable `name` with value "John" is being changed to "Mary".
-
-   B) The value of variable `name`, "John", did not change. The variable simply point its reference to a new value - "Mary".
-
-4. What are the primitive data types in JavaScript?
+2. What is the direction of passing props?
 
    ```
    Please write your answer here.
    ```
 
-5. What is the default behaviour of a button "Submit"?
+3. How do you get access to props in child component?
 
    ```
    Please write your answer here.
    ```
 
-6. How do you prevent default button behaviour in React?
+4. When do you use `state`?
 
    ```
    Please write your answer here.
    ```
 
-7. Why do you need to prevent default behaviour of a button?
+5. When does a component rerender
+
+   ```
+   Please write your answer here.
+   ```
+
+6. What will be the values of book and bookCopy? Why?
+
+   ``` js
+   const book = {title: "Hobbit", haveRead: false} 
+   const bookCopy = book
+   bookCopy.haveRead = true
+   ```
+
+   ```
+   Please write your answer here.
+   ```
+
+
+7. What are the differences of implementing event listener in plain JavaScript vs React?
+
+   ```
+   Please write your answer here.
+   ```
+
+8. Why do you need to prevent default behaviour of a button?
 
    ```
    Please write your answer here.
