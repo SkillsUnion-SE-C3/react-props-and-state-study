@@ -21,30 +21,30 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 1. When do you use `props`?
 
    ```
-   Please write your answer here.
+   Props stand for properties and is essentially JavaScrips. It is used when you want to represents an object property and returns a React element.
    ```
 2. What is the direction of passing props?
 
    ```
-   Please write your answer here.
+   Top to bottom from parent to child
    ```
 
 3. How do you get access to props in child component?
 
    ```
-   Please write your answer here.
+   By replacing props with this.props
    ```
 
 4. When do you use `state`?
 
    ```
-   Please write your answer here.
+   You would use state when you want React components to be able to change their output over time - as in the example of a timer, you want the output to update per second.
    ```
 
 5. When does a component rerender
 
    ```
-   Please write your answer here.
+   Each time there is an update
    ```
 
 6. What will be the values of book and bookCopy? Why?
@@ -56,20 +56,20 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
    ```
 
    ```
-   Please write your answer here.
+   Because it is a referene type and mutable, firstly book would remain as it is and then bookCopy would create a new object with true for haveRead instead of what is currently there.
    ```
 
 
 7. What are the differences of implementing event listener in plain JavaScript vs React?
 
    ```
-   Please write your answer here.
+   In react the event handler uses camel case and whereas in JavaScript, the event handler is string, in JSX it is a function
    ```
 
 8. Why do you need to prevent default behaviour of a button?
 
    ```
-   Please write your answer here.
+   You would need to use the preventDefault method.
    ```
 
 ### Response Guidelines
