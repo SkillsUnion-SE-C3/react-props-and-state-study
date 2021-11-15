@@ -21,30 +21,30 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
 1. When do you use `props`?
 
    ```
-   Please write your answer here.
+   They are used when passing data from one component to another.
    ```
 2. What is the direction of passing props?
 
    ```
-   Please write your answer here.
+   From top to bottom. 
    ```
 
 3. How do you get access to props in child component?
 
    ```
-   Please write your answer here.
+   using a callback function. 
    ```
 
 4. When do you use `state`?
 
    ```
-   Please write your answer here.
+   If data is managed by one component, but another component needs access to that data, you'd pass the data from the one component to the other component via props. If a component manages the data itself, it should use state and setState to manage it.
    ```
 
 5. When does a component rerender
 
    ```
-   Please write your answer here.
+   whenever there is a change in their state or props
    ```
 
 6. What will be the values of book and bookCopy? Why?
@@ -56,20 +56,23 @@ Use [DuckDuckGo](https://duckduckgo.com/) or your preferred search engine along 
    ```
 
    ```
-   Please write your answer here.
+   book : {title: "Hobbit", haveRead: true} 
+   bookCopy: {title: "Hobbit", haveRead: true} 
+
+   objects are changed on both levels if spread is not used. 
    ```
 
 
 7. What are the differences of implementing event listener in plain JavaScript vs React?
 
    ```
-   Please write your answer here.
+  the event listener would action on default where as react will action on state change.
    ```
 
 8. Why do you need to prevent default behaviour of a button?
 
    ```
-   Please write your answer here.
+   So the button does not perform it's default action.
    ```
 
 ### Response Guidelines
